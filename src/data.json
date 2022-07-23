@@ -1,0 +1,902 @@
+[
+    {
+        "fileName": "moby-dick.jpg",
+        "language": "English",
+        "stock": 10,
+        "author": "Herman Melville",
+        "title": "Moby Dick",
+        "popularity": 76,
+        "id": "09tZyjQcD1r288bSkT1m"
+    },
+    {
+        "language": "French",
+        "title": "Gargantua and Pantagruel",
+        "stock": 10,
+        "popularity": 10,
+        "fileName": "gargantua-and-pantagruel.jpg",
+        "author": "François Rabelais",
+        "id": "0jZNJwhFZZn0FyeHt8ru"
+    },
+    {
+        "title": "Lolita",
+        "fileName": "lolita.jpg",
+        "author": "Vladimir Nabokov",
+        "popularity": 55,
+        "language": "English",
+        "stock": 10,
+        "id": "1RFBq5dNe59IyxvWG76Z"
+    },
+    {
+        "title": "Pippi Longstocking",
+        "stock": 10,
+        "author": "Astrid Lindgren",
+        "popularity": 19,
+        "fileName": "pippi-longstocking.jpg",
+        "language": "Swedish",
+        "id": "1VqNwAN54iR14GR7eWD3"
+    },
+    {
+        "stock": 10,
+        "title": "Jacques the Fatalist",
+        "language": "French",
+        "popularity": 80,
+        "fileName": "jacques-the-fatalist.jpg",
+        "author": "Denis Diderot",
+        "id": "2Jqwv5VS9IEFoq4o0fMv"
+    },
+    {
+        "popularity": 33,
+        "author": "Robert Musil",
+        "language": "German",
+        "fileName": "the-man-without-qualities.jpg",
+        "title": "The Man Without Qualities",
+        "stock": 10,
+        "id": "2MTGKEkjHjnvCt5cjiil"
+    },
+    {
+        "title": "Medea",
+        "fileName": "medea.jpg",
+        "author": "Euripides",
+        "popularity": 64,
+        "stock": 10,
+        "language": "Greek",
+        "id": "2pPhrbVs7tWSl0kvwo5F"
+    },
+    {
+        "popularity": 90,
+        "fileName": "the-possessed.jpg",
+        "language": "Russian",
+        "stock": 10,
+        "title": "The Possessed",
+        "author": "Fyodor Dostoevsky",
+        "id": "2wwpGbOVVkFUXKApK9Bp"
+    },
+    {
+        "language": "English",
+        "author": "Virginia Woolf",
+        "title": "To the Lighthouse",
+        "popularity": 79,
+        "fileName": "to-the-lighthouse.jpg",
+        "stock": 10,
+        "id": "31NsMurCfcmM1Gfu7pEb"
+    },
+    {
+        "author": "Thomas Mann",
+        "popularity": 87,
+        "stock": 10,
+        "language": "German",
+        "title": "The Magic Mountain",
+        "fileName": "the-magic-mountain.jpg",
+        "id": "3DZpFRAdvjBNZ1K6imdj"
+    },
+    {
+        "language": "French",
+        "stock": 10,
+        "fileName": "voyage-au-bout-de-la-nuit.jpg",
+        "popularity": 90,
+        "author": "Louis-Ferdinand Céline",
+        "title": "Journey to the End of the Night",
+        "id": "42XjJQWYWdvOOb0Mmmnk"
+    },
+    {
+        "stock": 10,
+        "popularity": 66,
+        "author": "Homer",
+        "fileName": "the-iliad-of-homer.jpg",
+        "language": "Greek",
+        "title": "Iliad",
+        "id": "4LGshxrVSVaPgpXcW9JZ"
+    },
+    {
+        "fileName": "stories-of-franz-kafka.jpg",
+        "language": "German",
+        "popularity": 9,
+        "title": "Stories",
+        "author": "Franz Kafka",
+        "stock": 10,
+        "id": "4hSjg5w4mI4Z2TVLf8Ft"
+    },
+    {
+        "author": "Marguerite Yourcenar",
+        "fileName": "memoirs-of-hadrian.jpg",
+        "stock": 10,
+        "language": "French",
+        "popularity": 7,
+        "title": "Memoirs of Hadrian",
+        "id": "50OgvLItWC8LdPnDj7u8"
+    },
+    {
+        "author": "Anton Chekhov",
+        "popularity": 6,
+        "stock": 10,
+        "title": "Stories",
+        "language": "Russian",
+        "fileName": "stories-of-anton-chekhov.jpg",
+        "id": "5RbeLGvb08M2PUCIpLFV"
+    },
+    {
+        "fileName": "madame-bovary.jpg",
+        "popularity": 59,
+        "author": "Gustave Flaubert",
+        "title": "Madame Bovary",
+        "stock": 10,
+        "language": "French",
+        "id": "5kgr59CiO3PdxH5hfP2V"
+    },
+    {
+        "fileName": "poems-paul-celan.jpg",
+        "language": "German",
+        "author": "Paul Celan",
+        "stock": 10,
+        "title": "Poems",
+        "popularity": 45,
+        "id": "6hC4KIBW40a5ZMaEjJX8"
+    },
+    {
+        "title": "Bostan",
+        "popularity": 30,
+        "fileName": "bostan.jpg",
+        "stock": 10,
+        "language": "Persian",
+        "author": "Saadi",
+        "id": "6jagA7BM29SOVXET0fVC"
+    },
+    {
+        "stock": 10,
+        "language": "Norwegian",
+        "title": "Hunger",
+        "popularity": 88,
+        "fileName": "hunger.jpg",
+        "author": "Knut Hamsun",
+        "id": "7MBOEnsfrMOsokwVi4G4"
+    },
+    {
+        "stock": 10,
+        "title": "Zorba the Greek",
+        "language": "Greek",
+        "fileName": "zorba-the-greek.jpg",
+        "popularity": 78,
+        "author": "Nikos Kazantzakis",
+        "id": "7gHKfQhHR4IgbnALNJAw"
+    },
+    {
+        "author": "Fernando Pessoa",
+        "language": "Portuguese",
+        "popularity": 31,
+        "stock": 10,
+        "title": "The Book of Disquiet",
+        "fileName": "the-book-of-disquiet.jpg",
+        "id": "8UpS7Ifnq95hS0keieuv"
+    },
+    {
+        "fileName": "njals-saga.jpg",
+        "stock": 10,
+        "popularity": 75,
+        "author": "Unknown",
+        "language": "Old Norse",
+        "title": "Njál's Saga",
+        "id": "8eSxBAgzsycMv7lVK4Fg"
+    },
+    {
+        "language": "Italian",
+        "title": "The Decameron",
+        "author": "Giovanni Boccaccio",
+        "stock": 10,
+        "fileName": "the-decameron.jpg",
+        "popularity": 75,
+        "id": "Aul6GwadINlzXCACLWO3"
+    },
+    {
+        "title": "Anna Karenina",
+        "author": "Leo Tolstoy",
+        "popularity": 16,
+        "language": "Russian",
+        "fileName": "anna-karenina.jpg",
+        "stock": 10,
+        "id": "BTxDswIOQbXmaS23TIqT"
+    },
+    {
+        "stock": 10,
+        "author": "George Orwell",
+        "popularity": 62,
+        "fileName": "nineteen-eighty-four.jpg",
+        "title": "Nineteen Eighty-Four",
+        "language": "English",
+        "id": "BeQ5bquZSPh6KmAtf9XZ"
+    },
+    {
+        "fileName": "the-brothers-karamazov.jpg",
+        "popularity": 14,
+        "language": "Russian",
+        "author": "Fyodor Dostoevsky",
+        "stock": 10,
+        "title": "The Brothers Karamazov",
+        "id": "BjOIT3ndepYX06iOlE2v"
+    },
+    {
+        "stock": 10,
+        "language": "English",
+        "fileName": "the-sound-and-the-fury.jpg",
+        "author": "William Faulkner",
+        "popularity": 15,
+        "title": "The Sound and the Fury",
+        "id": "CCvsMvLg9UcYGL7weyFN"
+    },
+    {
+        "language": "Japanese",
+        "author": "Murasaki Shikibu",
+        "popularity": 56,
+        "fileName": "the-tale-of-genji.jpg",
+        "title": "The Tale of Genji",
+        "stock": 10,
+        "id": "Cljrf43Lf2iX89EpWZFv"
+    },
+    {
+        "popularity": 75,
+        "author": "George Eliot",
+        "stock": 10,
+        "language": "English",
+        "fileName": "middlemarch.jpg",
+        "title": "Middlemarch",
+        "id": "CtHkdzCGs6T03aoAqQoC"
+    },
+    {
+        "fileName": "the-divine-comedy.jpg",
+        "title": "The Divine Comedy",
+        "language": "Italian",
+        "popularity": 70,
+        "stock": 10,
+        "author": "Dante Alighieri",
+        "id": "E9dYhYTcWS0CnrskI5Qn"
+    },
+    {
+        "language": "English",
+        "popularity": 44,
+        "fileName": "the-golden-notebook.jpg",
+        "author": "Doris Lessing",
+        "title": "The Golden Notebook",
+        "stock": 10,
+        "id": "EuefjanuxkPXU5270TWU"
+    },
+    {
+        "stock": 10,
+        "author": "Vyasa",
+        "language": "Sanskrit",
+        "popularity": 62,
+        "fileName": "the-mahab-harata.jpg",
+        "title": "Mahabharata",
+        "id": "G1GZYi2ZugR0fT2bPZUF"
+    },
+    {
+        "language": "English",
+        "popularity": 70,
+        "title": "Gulliver's Travels",
+        "fileName": "gullivers-travels.jpg",
+        "stock": 10,
+        "author": "Jonathan Swift",
+        "id": "GFraQnBgl7Rn9MMbk5sg"
+    },
+    {
+        "fileName": "the-sound-of-the-mountain.jpg",
+        "author": "Yasunari Kawabata",
+        "stock": 10,
+        "title": "The Sound of the Mountain",
+        "language": "Japanese",
+        "popularity": 84,
+        "id": "HJWnXuBFBdglnvc9cDqT"
+    },
+    {
+        "popularity": 22,
+        "language": "Russian",
+        "stock": 10,
+        "fileName": "dead-souls.jpg",
+        "author": "Nikolai Gogol",
+        "title": "Dead Souls",
+        "id": "HQYRz0cB1Z3pelKAWAFL"
+    },
+    {
+        "fileName": "pedro-paramo.jpg",
+        "stock": 10,
+        "title": "Pedro Páramo",
+        "language": "Spanish",
+        "popularity": 84,
+        "author": "Juan Rulfo",
+        "id": "HU0AWEW7QAEZu7JCCncT"
+    },
+    {
+        "language": "English",
+        "fileName": "the-old-man-and-the-sea.jpg",
+        "author": "Ernest Hemingway",
+        "popularity": 48,
+        "title": "The Old Man and the Sea",
+        "stock": 10,
+        "id": "HXShmNKu2332YGBc85hD"
+    },
+    {
+        "language": "Arabic",
+        "stock": 10,
+        "author": "Tayeb Salih",
+        "fileName": "season-of-migration-to-the-north.jpg",
+        "popularity": 2,
+        "title": "Season of Migration to the North",
+        "id": "HdV00VS5WYKvwKeEgnxF"
+    },
+    {
+        "language": "German",
+        "stock": 10,
+        "title": "Berlin Alexanderplatz",
+        "author": "Alfred Döblin",
+        "fileName": "berlin-alexanderplatz.jpg",
+        "popularity": 61,
+        "id": "JNqzM7E4g98dYn8u0doo"
+    },
+    {
+        "fileName": "king-lear.jpg",
+        "language": "English",
+        "stock": 10,
+        "popularity": 9,
+        "title": "King Lear",
+        "author": "William Shakespeare",
+        "id": "Javony6eVUZIo2pMZ8t6"
+    },
+    {
+        "popularity": 84,
+        "title": "The Castle",
+        "author": "Franz Kafka",
+        "stock": 10,
+        "fileName": "the-castle.jpg",
+        "language": "German",
+        "id": "L87JJMTzlrQ59c36uF2f"
+    },
+    {
+        "popularity": 43,
+        "language": "Spanish",
+        "title": "Gypsy Ballads",
+        "author": "Federico García Lorca",
+        "fileName": "gypsy-ballads.jpg",
+        "stock": 10,
+        "id": "LPUw4qCO8K88KyqitZKX"
+    },
+    {
+        "title": "The Idiot",
+        "popularity": 98,
+        "language": "Russian",
+        "author": "Fyodor Dostoevsky",
+        "fileName": "the-idiot.jpg",
+        "stock": 10,
+        "id": "M0owITnXZHSPV57ley3Q"
+    },
+    {
+        "popularity": 84,
+        "title": "The Stranger",
+        "language": "French",
+        "stock": 10,
+        "fileName": "l-etranger.jpg",
+        "author": "Albert Camus",
+        "id": "MCswnoxKI1J6d9Pyk1e4"
+    },
+    {
+        "stock": 10,
+        "language": "English",
+        "popularity": 50,
+        "fileName": "othello.jpg",
+        "author": "William Shakespeare",
+        "title": "Othello",
+        "id": "MURLrqPO3YfzbOUAX8w2"
+    },
+    {
+        "author": "Hans Christian Andersen",
+        "language": "Danish",
+        "title": "Fairy tales",
+        "stock": 10,
+        "fileName": "fairy-tales.jpg",
+        "popularity": 79,
+        "id": "MWh8zGHdditndQmp5v6z"
+    },
+    {
+        "stock": 10,
+        "fileName": "one-thousand-and-one-nights.jpg",
+        "author": "Unknown",
+        "language": "Arabic",
+        "popularity": 35,
+        "title": "One Thousand and One Nights",
+        "id": "N2zBC8ZFtbVajxZWtnC4"
+    },
+    {
+        "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
+        "fileName": "molloy-malone-dies-the-unnamable.jpg",
+        "popularity": 12,
+        "stock": 10,
+        "language": "French, English",
+        "author": "Samuel Beckett",
+        "id": "NZE5f3NtfgvjSgIWK4Ji"
+    },
+    {
+        "popularity": 49,
+        "author": "Unknown",
+        "stock": 10,
+        "language": "Akkadian",
+        "title": "The Epic Of Gilgamesh",
+        "fileName": "the-epic-of-gilgamesh.jpg",
+        "id": "O8G09W1DkppMwQjJt7fd"
+    },
+    {
+        "popularity": 9,
+        "stock": 10,
+        "language": "German",
+        "title": "The Trial",
+        "fileName": "the-trial.jpg",
+        "author": "Franz Kafka",
+        "id": "ODOyqIXgaYmuNfJPtK0R"
+    },
+    {
+        "stock": 10,
+        "title": "Nostromo",
+        "language": "English",
+        "popularity": 13,
+        "fileName": "nostromo.jpg",
+        "author": "Joseph Conrad",
+        "id": "OopTH4L6FyLUmCpJYXaP"
+    },
+    {
+        "stock": 10,
+        "title": "A Doll's House",
+        "fileName": "a-Dolls-house.jpg",
+        "popularity": 28,
+        "author": "Henrik Ibsen",
+        "language": "Norwegian",
+        "id": "Osw9t1cVlrzsPlNYcpWZ"
+    },
+    {
+        "language": "Spanish",
+        "popularity": 8,
+        "stock": 10,
+        "author": "Jorge Luis Borges",
+        "title": "Ficciones",
+        "fileName": "ficciones.jpg",
+        "id": "PiuCyAiZrITOCnI3M2iH"
+    },
+    {
+        "title": "Independent People",
+        "author": "Halldór Laxness",
+        "stock": 10,
+        "popularity": 34,
+        "fileName": "independent-people.jpg",
+        "language": "Icelandic",
+        "id": "Q47Zo6mvTfN7zik3L56M"
+    },
+    {
+        "stock": 10,
+        "fileName": "leaves-of-grass.jpg",
+        "title": "Leaves of Grass",
+        "language": "English",
+        "popularity": 49,
+        "author": "Walt Whitman",
+        "id": "QCL3OU4cKPHUhbsT38Hp"
+    },
+    {
+        "stock": 10,
+        "popularity": 59,
+        "fileName": "poems-giacomo-leopardi.jpg",
+        "author": "Giacomo Leopardi",
+        "title": "Poems",
+        "language": "Italian",
+        "id": "QYwQRZwmXte9ijGWx47Q"
+    },
+    {
+        "fileName": "le-pere-goriot.jpg",
+        "title": "Le Père Goriot",
+        "stock": 10,
+        "language": "French",
+        "author": "Honoré de Balzac",
+        "popularity": 32,
+        "id": "RCxpL5vVISlHK1CEfWb7"
+    },
+    {
+        "title": "Blindness",
+        "stock": 10,
+        "popularity": 31,
+        "language": "Portuguese",
+        "fileName": "blindness.jpg",
+        "author": "José Saramago",
+        "id": "S0CdepPMXYmpTb2THFx0"
+    },
+    {
+        "stock": 10,
+        "fileName": "the-devil-to-pay-in-the-backlands.jpg",
+        "language": "Portuguese",
+        "author": "João Guimarães Rosa",
+        "popularity": 100,
+        "title": "The Devil to Pay in the Backlands",
+        "id": "SIAp9AbipQcW74zuFf7u"
+    },
+    {
+        "fileName": "beloved.jpg",
+        "title": "Beloved",
+        "stock": 10,
+        "popularity": 61,
+        "language": "English",
+        "author": "Toni Morrison",
+        "id": "UJOKMHw1R94kUINagMwZ"
+    },
+    {
+        "author": "Michel de Montaigne",
+        "fileName": "essais.jpg",
+        "stock": 10,
+        "title": "Essays",
+        "popularity": 94,
+        "language": "French",
+        "id": "VIn7KLAHk8iDx9GWdITZ"
+    },
+    {
+        "fileName": "love-in-the-time-of-cholera.jpg",
+        "language": "Spanish",
+        "author": "Gabriel García Márquez",
+        "popularity": 9,
+        "stock": 10,
+        "title": "Love in the Time of Cholera",
+        "id": "WByuxpeusGZYM4sut2JE"
+    },
+    {
+        "language": "French",
+        "fileName": "a-la-recherche-du-temps-perdu.jpg",
+        "title": "In Search of Lost Time",
+        "author": "Marcel Proust",
+        "popularity": 87,
+        "stock": 10,
+        "id": "WPIqoUswXX5yzryary8Q"
+    },
+    {
+        "language": "English",
+        "popularity": 59,
+        "fileName": "wuthering-heights.jpg",
+        "author": "Emily Brontë",
+        "title": "Wuthering Heights",
+        "stock": 10,
+        "id": "XpQD7AAWAxmXGEgedn1m"
+    },
+    {
+        "popularity": 86,
+        "author": "William Faulkner",
+        "title": "Absalom, Absalom!",
+        "language": "English",
+        "stock": 10,
+        "fileName": "absalom-absalom.jpg",
+        "id": "Y2ykeKXeQqP5TAwID2m4"
+    },
+    {
+        "fileName": "the-masnavi.jpg",
+        "stock": 10,
+        "author": "Rumi",
+        "popularity": 22,
+        "language": "Persian",
+        "title": "The Masnavi",
+        "id": "Y7ppBr4ZsxyQHBmfdZn4"
+    },
+    {
+        "popularity": 86,
+        "title": "The Canterbury Tales",
+        "stock": 10,
+        "language": "English",
+        "author": "Geoffrey Chaucer",
+        "fileName": "the-canterbury-tales.jpg",
+        "id": "YH0MpfEY0O4f4fBwoXFR"
+    },
+    {
+        "language": "French",
+        "fileName": "l-education-sentimentale.jpg",
+        "popularity": 10,
+        "title": "Sentimental Education",
+        "stock": 10,
+        "author": "Gustave Flaubert",
+        "id": "Z18PBgeCraYfd99kTl4n"
+    },
+    {
+        "fileName": "faust.jpg",
+        "author": "Johann Wolfgang von Goethe",
+        "stock": 10,
+        "title": "Faust",
+        "language": "German",
+        "popularity": 7,
+        "id": "a3iqDks0wblbSMM6mMaJ"
+    },
+    {
+        "fileName": "history.jpg",
+        "stock": 10,
+        "title": "History",
+        "language": "Italian",
+        "popularity": 30,
+        "author": "Elsa Morante",
+        "id": "a73oPNRU2K6klcW0Cr6L"
+    },
+    {
+        "language": "English",
+        "fileName": "things-fall-apart.jpg",
+        "title": "Things Fall Apart",
+        "stock": 10,
+        "popularity": 15,
+        "author": "Chinua Achebe",
+        "id": "aK3xIZS9BkV3A548ThVb"
+    },
+    {
+        "language": "English",
+        "title": "The Adventures of Huckleberry Finn",
+        "stock": 10,
+        "fileName": "the-adventures-of-huckleberry-finn.jpg",
+        "author": "Mark Twain",
+        "popularity": 99,
+        "id": "b9q64QmFaSlEPFDADpCf"
+    },
+    {
+        "fileName": "mrs-dalloway.jpg",
+        "language": "English",
+        "stock": 10,
+        "title": "Mrs Dalloway",
+        "author": "Virginia Woolf",
+        "popularity": 42,
+        "id": "dlAdoV7pU3e3ckpquVl3"
+    },
+    {
+        "title": "Great Expectations",
+        "popularity": 26,
+        "author": "Charles Dickens",
+        "stock": 10,
+        "language": "English",
+        "fileName": "great-expectations.jpg",
+        "id": "e6IC0zPtFUGnzF7wC8gm"
+    },
+    {
+        "fileName": "midnights-children.jpg",
+        "author": "Salman Rushdie",
+        "stock": 10,
+        "popularity": 89,
+        "language": "English",
+        "title": "Midnight's Children",
+        "id": "eWKNE98EUgfB4EnPWJvK"
+    },
+    {
+        "title": "One Hundred Years of Solitude",
+        "fileName": "one-hundred-years-of-solitude.jpg",
+        "popularity": 73,
+        "author": "Gabriel García Márquez",
+        "language": "Spanish",
+        "stock": 10,
+        "id": "fCWYVyR5RzU3zwYAbumH"
+    },
+    {
+        "fileName": "the-tin-drum.jpg",
+        "stock": 10,
+        "title": "The Tin Drum",
+        "author": "Günter Grass",
+        "popularity": 4,
+        "language": "German",
+        "id": "haxGTcRdoHufUgy5yGAw"
+    },
+    {
+        "author": "Edgar Allan Poe",
+        "fileName": "tales-and-poems-of-edgar-allan-poe.jpg",
+        "popularity": 58,
+        "title": "Tales",
+        "language": "English",
+        "stock": 10,
+        "id": "i6soUx3RtOWJe148Nyxd"
+    },
+    {
+        "language": "Arabic",
+        "stock": 10,
+        "author": "Naguib Mahfouz",
+        "title": "Children of Gebelawi",
+        "fileName": "children-of-gebelawi.jpg",
+        "popularity": 11,
+        "id": "jNtL7DnFAlFXHnBnXtDk"
+    },
+    {
+        "language": "English",
+        "stock": 10,
+        "title": "Ulysses",
+        "popularity": 4,
+        "fileName": "ulysses.jpg",
+        "author": "James Joyce",
+        "id": "jYuinSWFCHJeAZnKcStC"
+    },
+    {
+        "popularity": 88,
+        "language": "English",
+        "author": "D. H. Lawrence",
+        "stock": 10,
+        "fileName": "sons-and-lovers.jpg",
+        "title": "Sons and Lovers",
+        "id": "kdlOYCXbzVz0y64jQhf7"
+    },
+    {
+        "author": "Virgil",
+        "stock": 10,
+        "popularity": 95,
+        "language": "Classical Latin",
+        "title": "The Aeneid",
+        "fileName": "the-aeneid.jpg",
+        "id": "lE953bSonABHswUu84k9"
+    },
+    {
+        "title": "The Book Of Job",
+        "language": "Hebrew",
+        "stock": 10,
+        "author": "Unknown",
+        "fileName": "the-book-of-job.jpg",
+        "popularity": 89,
+        "id": "lGp4FCub9J09BbXm0oIO"
+    },
+    {
+        "language": "Greek",
+        "stock": 10,
+        "popularity": 100,
+        "title": "Odyssey",
+        "author": "Homer",
+        "fileName": "the-odyssey-of-homer.jpg",
+        "id": "mGBHJJG7VeGpFswe9ibo"
+    },
+    {
+        "author": "William Shakespeare",
+        "language": "English",
+        "fileName": "hamlet.jpg",
+        "title": "Hamlet",
+        "stock": 10,
+        "popularity": 53,
+        "id": "mtbx6pJ0mWcUpc8Betd8"
+    },
+    {
+        "title": "Invisible Man",
+        "fileName": "invisible-man.jpg",
+        "popularity": 65,
+        "language": "English",
+        "stock": 10,
+        "author": "Ralph Ellison",
+        "id": "mxyzKJ4ulFlCbiBHobng"
+    },
+    {
+        "popularity": 15,
+        "author": "Ovid",
+        "title": "Metamorphoses",
+        "language": "Classical Latin",
+        "stock": 10,
+        "fileName": "the-metamorphoses-of-ovid.jpg",
+        "id": "nvFhD9A1hFbCQWpITbqP"
+    },
+    {
+        "title": "The recognition of Shakuntala",
+        "fileName": "the-recognition-of-shakuntala.jpg",
+        "popularity": 70,
+        "language": "Sanskrit",
+        "author": "Kālidāsa",
+        "stock": 10,
+        "id": "oj2vuMWWcTo0lW7DBWvI"
+    },
+    {
+        "stock": 10,
+        "author": "Miguel de Cervantes",
+        "popularity": 98,
+        "language": "Spanish",
+        "fileName": "don-quijote-de-la-mancha.jpg",
+        "title": "Don Quijote De La Mancha",
+        "id": "on7NrToUFoK0BNwM8nkW"
+    },
+    {
+        "author": "Italo Svevo",
+        "fileName": "confessions-of-zeno.jpg",
+        "popularity": 79,
+        "stock": 10,
+        "title": "Confessions of Zeno",
+        "language": "Italian",
+        "id": "raZg5A8wL5XlwwNqKh6f"
+    },
+    {
+        "author": "Laurence Sterne",
+        "stock": 10,
+        "popularity": 8,
+        "language": "English",
+        "title": "The Life And Opinions of Tristram Shandy",
+        "fileName": "the-life-and-opinions-of-tristram-shandy.jpg",
+        "id": "rmgQJ2vM7IycZDo1UA9i"
+    },
+    {
+        "stock": 10,
+        "popularity": 52,
+        "author": "Leo Tolstoy",
+        "fileName": "war-and-peace.jpg",
+        "language": "Russian",
+        "title": "War and Peace",
+        "id": "t96Fz8m6wdVACL6HNtyO"
+    },
+    {
+        "popularity": 46,
+        "stock": 10,
+        "language": "Greek",
+        "author": "Sophocles",
+        "title": "Oedipus the King",
+        "fileName": "oedipus-the-king.jpg",
+        "id": "tAZnFHahwc0APJWTTHt0"
+    },
+    {
+        "fileName": "ramayana.jpg",
+        "stock": 10,
+        "popularity": 88,
+        "language": "Sanskrit",
+        "author": "Valmiki",
+        "title": "Ramayana",
+        "id": "tDKmpEIVCL2G9LkhF4yI"
+    },
+    {
+        "fileName": "pride-and-prejudice.jpg",
+        "title": "Pride and Prejudice",
+        "popularity": 84,
+        "stock": 10,
+        "author": "Jane Austen",
+        "language": "English",
+        "id": "u74rLy3z4KxhTr8yR0J7"
+    },
+    {
+        "author": "Lu Xun",
+        "language": "Chinese",
+        "fileName": "diary-of-a-madman.jpg",
+        "stock": 10,
+        "popularity": 66,
+        "title": "Diary of a Madman",
+        "id": "vRdMggiqzhtRunXAsnEx"
+    },
+    {
+        "language": "French",
+        "title": "The Red and the Black",
+        "stock": 10,
+        "fileName": "le-rouge-et-le-noir.jpg",
+        "popularity": 53,
+        "author": "Stendhal",
+        "id": "vxEIAjEUqZOv7aGIsMtJ"
+    },
+    {
+        "stock": 10,
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "language": "Russian",
+        "fileName": "crime-and-punishment.jpg",
+        "popularity": 2,
+        "id": "x0qya0DHNCCHUdClWobX"
+    },
+    {
+        "fileName": "the-death-of-ivan-ilyich.jpg",
+        "popularity": 14,
+        "stock": 10,
+        "language": "Russian",
+        "author": "Leo Tolstoy",
+        "title": "The Death of Ivan Ilyich",
+        "id": "xf8kSeuS4deMvNLrdEYV"
+    },
+    {
+        "stock": 10,
+        "fileName": "buddenbrooks.jpg",
+        "popularity": 45,
+        "title": "Buddenbrooks",
+        "author": "Thomas Mann",
+        "language": "German",
+        "id": "z8IrYurVPYjyNzXVxUwL"
+    }
+]
