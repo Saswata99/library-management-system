@@ -2,7 +2,7 @@ import "./App.css";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { getDocs, collection } from "firebase/firestore";
 import { ref, listAll, getDownloadURL } from "firebase/storage";
-import { GoogleAuthProvider, signInWithPopup, onAuthStateChanged } from 'firebase/auth';
+import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 import { firebaseDb, firebaseStorage, firebaseAuth } from "./Firebase";
 import { useState, useEffect, useRef, createContext } from "react";
 import Navbar from "./componants/Navbar";
@@ -37,18 +37,16 @@ function App() {
   const signInAccount = async () => {
     await signInWithPopup(firebaseAuth, googleProvider)
       .then(result => {
-          console.log(result);
           const data = result.user.reloadUserInfo;
           localStorage.setItem('authData', JSON.stringify(data));
           setLogInData(data);
         })
-      console.log('render');
   }
 
   const logoutAccount = async () => {
     await firebaseAuth.signOut()
       .then(() => {
-        localStorage.removeItem('authData ');
+        localStorage.removeItem('authData');
         setLogInData({});
     })
   }

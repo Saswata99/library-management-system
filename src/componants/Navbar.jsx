@@ -18,23 +18,15 @@ import InputBase from '@mui/material/InputBase';
 import { AppContext } from '../App';
 
 
-
 const Navbar = () => {
   const { setIsHome } = useContext(AppContext).isHome;
   const { genarateSearchData } = useContext(AppContext);
   const { signInAccount } = useContext(AppContext);
   const { logoutAccount } = useContext(AppContext);
   const { logInData, setLogInData } = useContext(AppContext).logInData;
-  const [ anchorElUser, setAnchorElUser ] = useState(null);
+  const [ menuAnchor, setMenuAnchor ] = useState(null);
   const [ searchInputValue, setSearchInputValue ] = useState("");
   const temp = useRef("");
-
-  const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
-
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
-
 
   const handleSearch = (event) => {
     if ( temp.current === searchInputValue) 
@@ -132,7 +124,7 @@ const Navbar = () => {
           </Box>
           
           <Grid container justifyContent="flex-end"sx={{width: '250px'}}>
-            { logInData.length ? (
+            { Object.keys(logInData).length ? (
               <>
                 <Button 
                   disableRipple={true}
@@ -147,13 +139,13 @@ const Navbar = () => {
                 >
                   Dashboard
                 </Button>
-                <IconButton onClick={(event) => setAnchorElUser(event.currentTarget)}>
+                <IconButton onClick={(event) => setMenuAnchor(event.currentTarget)}>
                   <Avatar src={logInData.photoUrl} />
                 </IconButton>
                 <Menu
                   sx={{ mt: '45px' }}
                   id="menu-appbar"
-                  anchorEl={anchorElUser}
+                  anchorEl={menuAnchor}
                   anchorOrigin={{
                     vertical: 'top',
                     horizontal: 'right',
@@ -163,21 +155,32 @@ const Navbar = () => {
                     vertical: 'top',
                     horizontal: 'right',
                   }}
-                  open={Boolean(anchorElUser)}
-                  onClose={handleCloseUserMenu}
-                  >
-                  {settings.map((setting) => (
-                    <MenuItem key={setting} onClick={logoutAccount}>
-                      <Typography textAlign="center">{setting}</Typography>
-                    </MenuItem>
-                  ))}
+                  open={Boolean(menuAnchor)}
+                  onClose={() => setMenuAnchor(null)}
+                >
+                  <MenuItem onClick={() => {  }}>
+                    <Typography textAlign="center">Profile</Typography>
+                  </MenuItem>
+                  <MenuItem onClick={() => {  }}>
+                    <Typography textAlign="center">Issued Book</Typography>
+                  </MenuItem>
+                  <MenuItem onClick={() => {  }}>
+                    <Typography textAlign="center">Request Book</Typography>
+                  </MenuItem>
+                  <MenuItem onClick={() => { }}>
+                    <Typography textAlign="center">Donate Book</Typography>
+                  </MenuItem>
+                  <MenuItem onClick={() => { setMenuAnchor(null); logoutAccount() }}>
+                    <Typography textAlign="center">Logout</Typography>
+                  </MenuItem>
+                  
                 </Menu>
                 
               </>) :
 
               (
                 <Button 
-                  variant="text" 
+                  variant="outlined" 
                   startIcon={<GoogleIcon sx={{pr: .5}}/>}
                   onClick={signInAccount}
                   sx={{ 
