@@ -1,55 +1,56 @@
-import React, { useState } from 'react'
-import heroImg1 from '../img/1.jpg' 
-import heroImg2 from '../img/2.jpg' 
-import heroImg3 from '../img/3.jpg' 
+import React from "react";
+import heroBanner1 from "../img/hero1.svg";
+import heroBanner2 from "../img/hero2.svg";
+import heroBanner3 from "../img/hero3.svg";
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import { IconButton, Box, Container, Typography, Grid } from "@mui/material";
+import BookCard from "./BookCard";
+import { firebaseDb} from "../Firebase";
+import { collection, query, orderBy, limit, getDocs } from "firebase/firestore";
 
-import Box from '@mui/material/Box';
-import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
-
-function Hero() {
-
-  const [currentImage, setCurrentImage] = useState(0)
-  const images = [heroImg1, heroImg2, heroImg3]
+function HomePage() {
+  const [currentBanner, setCurrentBanner] = React.useState(0);
+  const heroBanners = [heroBanner1, heroBanner2, heroBanner3];
 
   const forwardBtn = () => {
-    console.log(currentImage);
-    setCurrentImage((currentImage + 1) % images.length)
-  }
+    setCurrentBanner((currentBanner + 1) % heroBanners.length);
+  };
 
-  const backworddBtn = () => {
-    setCurrentImage((currentImage - 1 + images.length) % images.length)
-  }
+  const backwarddBtn = () => {
+    setCurrentBanner(
+      (currentBanner - 1 + heroBanners.length) % heroBanners.length
+    );
+  };
 
   return (
-    <Box > 
-      <ArrowBackIosIcon sx={{
-          position: 'absolute',
-          left: 50,
-          top: 300,
+    <Box>
+      <IconButton
+        aria-label="hero-banner-backward"
+        onClick={backwarddBtn}
+        sx={{
+          position: "absolute",
+          left: 20,
+          top: 220,
         }}
-        onClick={backworddBtn}
-      />
-        {images.map((image, index)=>
-            currentImage === index &&
-            <img 
-                key={image} 
-                src={image} 
-                alt={image}
-                width='100%'
-                position='relative'
-            />
-        )}
-      <ArrowForwardIosIcon sx={{
-          position: 'absolute',
-          right: 50,
-          top: 300,
-        }}
+      >
+        <ArrowBackIosIcon />
+      </IconButton>
+      <img src={heroBanners[currentBanner]} width="100%" alt="hero-banner" />
+      <IconButton
+        aria-label="hero-banner-forward"
         onClick={forwardBtn}
-      />
+        sx={{
+          position: "absolute",
+          right: 20,
+          top: 220,
+        }}
+      >
+        <ArrowForwardIosIcon />
+      </IconButton>
     </Box>
-  )
+  );
 }
 
-export default Hero
+export default HomePage;

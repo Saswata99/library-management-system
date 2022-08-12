@@ -1,31 +1,51 @@
-import React, { useContext } from 'react'
-import BookCard from './BookCard'
-import Container from '@mui/material/Container'
-import Grid from '@mui/material/Grid'
-import Typography from '@mui/material/Typography'
-import { AppContext } from '../App' 
+import React, { useState, useEffect, useRef } from "react";
+import BookCard from "./BookCard";
+import { AppContext } from "../App";
+import { IconButton, Box, Container, Typography, Grid } from "@mui/material";
+import { firebaseDb } from "../Firebase";
+import { collection, query, orderBy, limit, getDocs } from "firebase/firestore";
 
-function BodyHome() {
-  const { bookData } = useContext(AppContext).bookData;
-  // object => [[key, values], ...] => sort desc => slice top 8
-  const popularData = Object.entries(bookData).sort((a, b) => b[1].popularity - a[1].popularity).slice(0, 8);
-
-  //console.log(data);
-  return (
-    <Container maxWidth="90vw" sx={{my:20}}>
-      <Typography variant="h3" gutterBottom component="div" sx={{m:5, ml:10}}>
-        Populor books
-      </Typography>
-    
-      <Grid container justifyContent="center" spacing={10}>
-          {popularData.map(data =>
-            <Grid item key = {data[0]}>
-              <BookCard data = {data[1]} />
-            </Grid>
-          )}
-      </Grid>
-    </Container>
-  )
+async function fetchPopularBooks(setPopularBooks) {
+  const booksDataRef = collection(firebaseDb, "booksData");
+  const popularQuery = query(
+    booksDataRef,
+    orderBy("bbeScore", "desc"),
+    limit(12)
+  );
+  const querySnapshot = await getDocs(popularQuery);
+  const temp = new Map();
+  querySnapshot.forEach((doc) => temp.set(doc.id, doc.data()));
+  setPopularBooks(temp);
 }
 
-export default BodyHome
+function BodyHome() {
+  const [popularBooks, setPopularBooks] = useState(new Map());
+  const isFetch = useRef(false);
+
+  useEffect(() => {
+    fetchPopularBooks(setPopularBooks);
+
+    // const bookDataLocal = JSON.parse(localStorage.getItem("bookData"));
+    // if (bookDataLocal) {
+    //   isFetched.current = true;
+    //   setBookData(bookDataLocal);
+    // }
+  }, []);
+
+  return (
+    <Container maxWidth="lg">
+      <Typography variant="h4" sx={{ mt: 10, mb: 5 }}>
+        Populor books
+      </Typography>
+      <Grid container spacing={10}>
+        {[...popularBooks].map((data) => (
+          <Grid item key={data[0]} xs={12} sm={6} md={4} lg={3}>
+            <BookCard id={data[0]} data={data[1]} />
+          </Grid>
+        ))}
+      </Grid>
+    </Container>
+  );
+}
+
+export default BodyHome;
